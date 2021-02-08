@@ -1,0 +1,48 @@
+.collapsible_Table {
+  background-color: lightgrey;
+  width: 600px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 100px;
+}
+.collapsible_Header {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+.collapsible_rows {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.collapsible_row {
+  width: 100%;
+  height: 50px;
+  background-color: yellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+  margin-top: 2px;
+}
+.expandable_row {
+  width: 100%;
+  height: fit-content;
+  background-color: lightseagreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
